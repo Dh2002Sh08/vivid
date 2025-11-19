@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #020617;
+}
+
+body {
+  @apply m-0 min-h-screen bg-slate-950 text-slate-100;
+  background-image: radial-gradient(circle at 20% 0%, rgba(37, 99, 235, 0.25), transparent 55%);
+}
+
+a {
+  @apply text-inherit no-underline;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}

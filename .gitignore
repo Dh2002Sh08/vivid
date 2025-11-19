@@ -1,0 +1,89 @@
+# ============================
+# Node / Backend
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# Build output
+dist/
+build/
+out/
+.next/
+.cache/
+
+# Logs
+logs/
+*.log
+log.txt
+
+# PM2 logs
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Database
+*.sqlite
+*.db
+mongodb-data/
+dump/
+
+# ============================
+# Frontend
+# ============================
+# Vite
+vite.config.ts.timestamp*
+vite.config.js.timestamp*
+
+# React
+*.DS_Store
+*.swp
+*.swo
+
+# Next.js
+.next/
+.vercel/
+
+# SvelteKit (if ever used)
+.svelte-kit/
+
+# Angular
+.angular/
+
+# Firebase
+.firebase/
+.firebaserc
+
+# ============================
+# IDE / OS
+# ============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# ============================
+# Production deployment
+# ============================
+/uploads
+/public/uploads
+
+# Supabase
+.supabase
+
+# Docker
+docker-data/
+docker-compose.override.yml
