@@ -8,7 +8,7 @@ import type {
 } from './types';
 
 const api = axios.create({
-  baseURL: 'http://localhost:4000/api',
+  baseURL: 'https://vivid-2.onrender.com/api',
   timeout: 15000
 });
 
